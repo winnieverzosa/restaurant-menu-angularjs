@@ -1,0 +1,57 @@
+<!--/**
+*
+* RESTAURANT MENU
+*
+* This project is an application built using AngularJS and Bootstrap.
+* There is no data persistence on this project.
+*
+* Created by Winnie Verzosa
+* Website: http:// winnieverzosa.com
+* Portfolio: http://winnieverzosa.com/resume
+* LinkedIn: https://www.linkedin.com/in/winnieverzosa
+* GitHub: https://github.com/winnieverzosa
+*
+*/ -->
+<!DOCTYPE html>
+<html lang="en" ng-app="restaurant">
+<head>
+    <meta charset="UTF-8">
+    <title>Filipino Restaurant | AngularJS</title>
+
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/custom.css">
+</head>
+<body ng-controller="MenuController as menu">
+<div class="container">
+    <div class="text-center">
+        <h1><b>FILIPINO CUISINE</b></h1>
+        <h3>Menu</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="product in menu.products">
+                    <!--<h4 ng-include="'product-title.html'"></h4>-->
+                    <product-title></product-title>
+                    <img ng-src="{{product.image}}" alt="{{product.name}}">
+                    <product-description></product-description>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+
+</div>
+<footer class="text-center">
+    <a href="http://winnieverzosa.com" target="_blank">Website</a> |
+    <a href="http://winnieverzosa.com/resume" target="_blank">Portfolio</a> |
+    <a href="http://dev.winnieverzosa.com/" target="_blank">Dev Blog</a> |
+    <a href="https://www.linkedin.com/in/winnieverzosa" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/winnieverzosa" target="_blank">GitHub</a>
+</footer>
+<script src="../lib/angular.min.js"></script>
+<script src="../model-controllers/app.js"></script>
+<script src="../model-controllers/product.js"></script>
+</body>
+</html>

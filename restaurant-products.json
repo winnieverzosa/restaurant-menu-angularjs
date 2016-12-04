@@ -1,0 +1,92 @@
+[
+  {
+    "name" : "Chicken Adobo",
+    "price" : 3,
+    "description": "Adobo is made of chicken, soy sauce and vinegar.",
+    "image": "../images/adobo.jpg",
+    "reviews": [
+      {
+        "stars": 4,
+        "body": "Tasty!",
+        "author": "winnie@winnieverzosa.com"
+      },
+      {
+        "stars": 5,
+        "body": "Delisyoso",
+        "author": "rowena@winnieverzosa.com"
+      }
+    ]
+  },
+  {
+    "name" : "Sinigang na Hipon",
+    "price" : 4.25,
+    "description": "Sour soup dish with shrimp.",
+    "image": "../images/sinigang.jpg",
+    "reviews": [
+      {
+        "stars": 4,
+        "body": "Tasty!",
+        "author": "morrie@winnieverzosa.com"
+      },
+      {
+        "stars": 3,
+        "body": "Delisyoso",
+        "author": "antonio@winnieverzosa.com"
+      }
+    ]
+  },
+  {
+    "name" : "Daing na Bangus",
+    "price" : 2.5,
+    "description": "Fried milkfish dish wherein the fish is marinated in vinegar.",
+    "image": "../images/daing.jpg",
+    "reviews": [
+      {
+        "stars": 4,
+        "body": "Tasty!",
+        "author": "innie@winnieverzosa.com"
+      },
+      {
+        "stars": 5,
+        "body": "Delisyoso",
+        "author": "wheng@winnieverzosa.com"
+      }
+    ]
+  },
+  {
+    "name" : "Nilagang Baka",
+    "price" : 5.99,
+    "description": "Beef soup with vegetables like carrots, potatoes, cabbage and corn.",
+    "image": "../images/nilaga.jpg",
+    "reviews": [
+      {
+        "stars": 5,
+        "body": "Tasty!",
+        "author": "joy@winnieverzosa.com"
+      },
+      {
+        "stars": 4,
+        "body": "Delisyoso",
+        "author": "candy@winnieverzosa.com"
+      }
+    ]
+  },
+  {
+    "name" : "Pinakbet",
+    "price" : 3,
+    "description": "A tasty vegetable dish made-up of different fresh vegetables, pork, and shrimp paste.",
+    "image": "../images/pinakbet.jpg",
+    "reviews": [
+      {
+        "stars": 4,
+        "body": "Tasty!",
+        "author": "winnie@winnieverzosa.com"
+      },
+      {
+        "stars": 5,
+        "body": "Delisyoso",
+        "author": "rowena@winnieverzosa.com"
+      }
+    ]
+  }
+]
